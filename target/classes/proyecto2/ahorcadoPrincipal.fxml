@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto2.AhorcadoController">
+   <children>
+      <ImageView fx:id="imgPiernaIzq" fitHeight="250.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/Hangman-5.png" />
+         </image>
+      </ImageView>
+      <ImageView cache="true" fitHeight="270.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Hangman-0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCabeza" fitHeight="270.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/Hangman-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCuerpo" fitHeight="250.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/Hangman-2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBrazoIzq" fitHeight="250.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/Hangman-3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBrazoDer" fitHeight="250.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/Hangman-4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPiernaDer" fitHeight="250.0" fitWidth="250.0" layoutX="60.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/Hangman-6.png" />
+         </image>
+      </ImageView>
+      <FlowPane fx:id="panelBotones" layoutX="370.0" layoutY="124.0" prefHeight="269.0" prefWidth="443.0" />
+      <Label fx:id="palabraSecreta" contentDisplay="CENTER" layoutX="140.0" layoutY="376.0" prefHeight="67.0" prefWidth="201.0" style="-fx-text-alignment: center;" textAlignment="CENTER" />
+   </children>
+</Pane>
