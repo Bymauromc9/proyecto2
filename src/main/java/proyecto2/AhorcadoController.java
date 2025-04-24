@@ -12,6 +12,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.fxml.LoadListener;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -53,7 +54,7 @@ public class AhorcadoController implements Initializable{
     public void setEscenarioPrincipal(Stage escenarioPrincipal) {
         this.escenarioPrincipal = escenarioPrincipal;
     }
-    
+
     public void palabraFicheroRandomSecreta(){
         List<String> palabras = new ArrayList<>();
 
